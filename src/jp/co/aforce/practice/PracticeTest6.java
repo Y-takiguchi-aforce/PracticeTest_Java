@@ -3,7 +3,7 @@ package jp.co.aforce.practice;
 public class PracticeTest6 {
 	public static void main(String[] args) {
 		//練習問題1
-		int fortune = new java.util.Random().nextInt();
+		int fortune = new java.util.Random().nextInt(4);
 		{
 			switch (fortune) {
 			case 1:
